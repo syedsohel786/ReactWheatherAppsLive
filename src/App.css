@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #000266; */
+
+    font-family: 'montserrat', 'BioRhyme',calibri;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+.logo{
+    font-family: 'bioRhyme';
+    color: #242424;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main{
+    width: 100%;
+    height: 768px;
+    position: relative;
+    background: no-repeat;
+    background-size: cover;
+    background-image: url("./pictures/sohel.jpg");
 }
 
-.App-link {
-  color: #61dafb;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul{
+    display: flex;
 }
+nav ul li{
+    font-family: calibri;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #242424;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    transition: 0.4s ease-in-out;
+}
+
+.hey{
+    font-family: calibri;
+    color: #000266;
+    font-weight: 500;
+    border-bottom: 2px solid #000266;;
+}
+nav ul li a:hover{
+    background-color: #000266;
+    color: orange;
+    box-shadow: 5px 10px 30px rgba(252, 96, 200, 0.952);
+}
+
+nav .menu-btn, .menu-icon{
+    display: none;
+}
+
+.name{
+    font-family: Montserrat;
+    width: 600px;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.name span{
+    color: #d0ff00;
+    border-bottom: 2px solid #d0ff00 ;
+    
+}
+
+.name .details{
+    color: #c7c7c7;
+}
+.name .heading{
+    color: #e9e9e9;
+}
+
+.name h1{
+    font-family: Montserrat;
+    font-size: 46px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
